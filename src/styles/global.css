@@ -1,0 +1,130 @@
+body, html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  min-height: 100%;
+  background-color: rgb(250, 252, 252);
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 17px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.content {
+  color: rgba(0,0,0,0.7);
+  line-height: 1.2;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: teal;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navlink {
+  text-decoration: none;
+  color: rgb(250, 252, 252);
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 2px solid transparent;
+}
+.navlink:hover {
+  border-bottom: 2px solid rgb(250, 252, 252);
+  cursor: pointer;
+}
+.navlink.active {
+  border-bottom: 2px solid rgb(250, 252, 252);
+}
+
+.name {
+  font-size: 20px;
+}
+.name:hover {
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+/* Home page styles */
+.home-container {
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-pic-container {
+  margin-right: 3vw;
+}
+.profile-pic {
+  height: 70vh;
+}
+
+.home-text-container {
+  margin-left: 3vw;
+  text-align: center;
+}
+.work-btn {
+  width: 170px;
+  height: 50px;
+  background-color: rgb(250, 252, 252);
+  border: solid;
+  border-color: teal;
+  border-width: 1px;
+  border-radius: 3px;
+  color: teal;
+  font-size: 17px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+  padding-right: 6px;
+}
+.work-btn:hover {
+  background-color: teal;
+  color: rgb(250, 252, 252);
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
