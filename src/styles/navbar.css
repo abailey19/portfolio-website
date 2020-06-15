@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: teal;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navlink {
+  text-decoration: none;
+  color: rgb(250, 252, 252);
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 2px solid transparent;
+}
+.navlink:hover {
+  border-bottom: 2px solid rgb(250, 252, 252);
+  cursor: pointer;
+}
+.navlink.active {
+  border-bottom: 2px solid rgb(250, 252, 252);
+}
+
+.name {
+  font-size: 20px;
+}
+.name:hover {
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}

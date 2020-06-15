@@ -1,0 +1,67 @@
+/* Intro section styles */
+.home-container {
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-pic-container {
+  margin-right: 3vw;
+}
+.profile-pic {
+  height: 70vh;
+}
+
+.home-text-container {
+  margin-left: 3vw;
+  text-align: center;
+}
+.nav-btn {
+  width: 170px;
+  height: 50px;
+  background-color: rgb(250, 252, 252);
+  border: solid;
+  border-color: teal;
+  border-width: 1px;
+  border-radius: 3px;
+  color: teal;
+  font-size: 17px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.nav-btn:hover {
+  background-color: teal;
+  color: rgb(250, 252, 252);
+}
+.nav-btn:focus {
+  outline: none;
+}
+
+/* About section styles */
+.about-container {
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(0, 128, 128, 0.1);
+}
+
+.about-pic-container {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.about-text-container {
+  margin-right: 3vw;
+}
