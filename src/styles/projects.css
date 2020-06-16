@@ -1,0 +1,37 @@
+.project {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.project-pic-container {
+  margin-right: 3vw;
+}
+
+.project-pic-vertical {
+  height: 40vh;
+}
+.project-pic-horizontal {
+  width: 30vw;
+}
+
+.project-text-container {
+  margin-left: 3vw;
+  margin-top: -5vh;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  border: solid 2px;
+  border-color: rgb(42, 82, 190);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}

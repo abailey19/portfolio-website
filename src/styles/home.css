@@ -13,55 +13,33 @@
   margin-right: 3vw;
 }
 .profile-pic {
-  height: 70vh;
+  height: 25vh;
+  border-radius: 50%;
 }
 
-.home-text-container {
-  margin-left: 3vw;
-  text-align: center;
+.header-name {
+  margin: -1vh;
 }
-.nav-btn {
-  width: 170px;
-  height: 50px;
-  background-color: rgb(250, 252, 252);
-  border: solid;
-  border-color: teal;
-  border-width: 1px;
-  border-radius: 3px;
-  color: teal;
-  font-size: 17px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 4px;
-  padding-right: 6px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.nav-btn:hover {
-  background-color: teal;
-  color: rgb(250, 252, 252);
-}
-.nav-btn:focus {
-  outline: none;
+.tagline {
+  margin: -1vh;
 }
 
-/* About section styles */
-.about-container {
-  padding-left: 8vw;
-  padding-right: 8vw;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+.about {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: rgba(0, 128, 128, 0.1);
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
-
+.about-header {
+  margin-top: -1vh;
+}
 .about-pic-container {
-  margin-left: 3vw;
+  margin-left: 5vw;
   margin-right: 3vw;
 }
-
-.about-text-container {
-  margin-right: 3vw;
+.about-pic {
+  height: 50vh;
 }
