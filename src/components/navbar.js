@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import '../styles/navbar.css';
 
-export default function Navbar() {
+const Navbar = () => {
   return (
     <div className="navbar">
       <Link to="/" className="navlink name">Anne Bailey</Link>
@@ -13,4 +13,6 @@ export default function Navbar() {
       </div>
     </div>
   );
-}
+};
+
+export default Navbar;

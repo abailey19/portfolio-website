@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Project(props) {
+const Project = (props) => {
   return (
     <div className="project">
       <div className="project-pic-container">
@@ -17,4 +17,6 @@ export default function Project(props) {
       </div>
     </div>
   );
-}
+};
+
+export default Project;

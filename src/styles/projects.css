@@ -21,17 +21,3 @@
   margin-left: 3vw;
   margin-top: -5vh;
 }
-
-.divider {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.circle {
-  border: solid 2px;
-  border-color: rgb(42, 82, 190);
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-}

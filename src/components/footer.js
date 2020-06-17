@@ -3,7 +3,7 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import '../styles/footer.css';
 
-export default function Footer() {
+const Footer = () => {
   return (
     <div className="footer">
       <div className="contact">Contact</div>
@@ -41,4 +41,6 @@ export default function Footer() {
       </div>
     </div>
   );
-}
+};
+
+export default Footer;
