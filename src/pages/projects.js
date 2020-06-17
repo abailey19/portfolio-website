@@ -127,6 +127,11 @@ export default () => {
         imgSrc={tse}
         horizontal
       />
+      <div className="divider">
+        <hr />
+        <div className="circle" />
+        <hr />
+      </div>
     </Layout>
   );
 };

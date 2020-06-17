@@ -26,6 +26,7 @@
 }
 .navlink:hover {
   color: rgb(42, 82, 190);
+  font-weight: bolder;
   cursor: pointer;
 }
 .navlink.active {
