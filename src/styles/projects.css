@@ -1,6 +1,8 @@
 .project {
   margin-left: 15vw;
   margin-right: 15vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: row;
   align-items: flex-start;

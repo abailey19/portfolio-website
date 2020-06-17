@@ -36,7 +36,7 @@ p {
 
 ul {
   list-style-type: circle;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 a {
@@ -51,15 +51,14 @@ a {
   border-top: solid grey 0.2px;
   border-bottom: solid grey 0.2px;
   background-color: rgba(42, 82, 190, 0.2);
-  margin-bottom: 10vh;
 }
 
 hr {
   width: 35vw;
   margin-left: 0.5vw;
   margin-right: 0.5vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  /* margin-top: 10vh;
+  margin-bottom: 10vh; */
   border-color: rgb(42, 82, 190);
 }
 

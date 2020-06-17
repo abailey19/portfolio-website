@@ -1,0 +1,30 @@
+.work-container {
+  padding-top: 3vh;
+  padding-bottom: 8vh;
+}
+
+.work-exp {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.work-exp-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.at {
+  color: rgb(42, 82, 190);
+}
+
+.dates {
+  font-size: 15px;
+  margin-top: -20px;
+}
+
+.work-description {
+  font-size: 18px;
+  line-height: 1em;
+}
