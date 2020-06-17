@@ -24,7 +24,8 @@ export default () => {
         <div className="about-text-container">
           <h2 className="about-header">About Me</h2>
           <p>Hi! I&apos;m Anne. I&apos;m a rising junior at Dartmouth College from Boston, MA.
-            I am a computer science major and a linguistics minor, intersted in exploring NLP and computational linguistics.
+            I am a computer science major and a linguistics minor, intersted in software engineering
+            as well as NLP and computational linguistics.
             I develop full stack web and mobile apps for Dartmouth&apos;s DALI lab, and I&apos;m
             especially passionate about leveraging technology for social impact.
             Outside the world of tech, you can find me acting in student-run plays,
