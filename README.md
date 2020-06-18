@@ -27,14 +27,10 @@ Built with React using [Gatsby](https://www.gatsbyjs.org/).
 
 - `cd` into root directory
 - `gatsby develop`
-- Navigate to [localhost:8080](localhost:8080) to view the site
+- Navigate to [localhost:8080](http://localhost:8000/) to view the site
 
 ## Deployment
 
 Deployed using `surge`. Install globally by running `npm install -g surge`.
 
 Run `gatsby build` and then `surge public` to publish. CNAME file is setup so the project deploys to `annebailey.surge.sh`.
-
-## Author
-
-Anne Bailey, Dartmouth College '22
