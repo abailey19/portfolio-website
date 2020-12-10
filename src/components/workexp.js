@@ -5,8 +5,10 @@ const WorkExp = (props) => {
     <div className="work-exp">
       <div className="work-exp-header">
         <h3>{props.title}</h3>
-        <h3 className="at">&nbsp;@&nbsp;</h3>
-        <h3>{props.employer}</h3>
+        <div className="work-exp-header-2">
+          <h3 className="at work-exp-line-2">@</h3>
+          <h3 className="work-exp-line-2">{props.employer}</h3>
+        </div>
       </div>
       <p className="dates">{props.dates}</p>
       <p className="work-description">{props.description}</p>

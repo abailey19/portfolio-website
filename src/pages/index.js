@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
-// import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import profilePic from '../img/profile-pic.png';
 import mountainPic from '../img/mountain-pic.png';
