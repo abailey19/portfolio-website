@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This website contains information about me, my work experience, and some projects I've worked on. It's hosted at http://annebailey.surge.sh.
+This website contains information about me, my work experience, and some projects I've worked on. It's hosted at https://annebailey.surge.sh.
 
 ## Stack
 Built with React using [Gatsby](https://www.gatsbyjs.org/). 
