@@ -25,8 +25,9 @@ export default () => {
           <p>Hi! I&apos;m Anne. I&apos;m a rising junior at Dartmouth College from Boston, MA.
             I am a computer science major and a linguistics minor, interested in software engineering
             as well as NLP and computational linguistics.
-            I develop full-stack web and mobile apps for Dartmouth&apos;s DALI lab, and I&apos;m
-            especially passionate about leveraging technology for social impact.
+            I develop full-stack web and mobile apps for Dartmouth&apos;s DALI lab, and this winter,
+            I&apos;ll be working as a software engineering intern at Cambly.
+            I&apos;m especially passionate about leveraging technology for social impact.
             Outside the world of tech, you can find me acting in student-run plays,
             playing clarinet for the Dartmouth College Wind Ensemble,
             and rock climbing, hiking, and kayaking with the Dartmouth Outing Club.
