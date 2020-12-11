@@ -25,8 +25,7 @@ export default () => {
             PeerTECH connects adults with severe mental health conditions to trained peer supporters with lived experience of those conditions.
             It serves as a platform for users and their peer supporters to communicate,
             set goals and wellness plans, and access resources that assist in the recovery process.
-            The mobile app and its accompnaying admin portal are on track to begin
-            trial runs in the fall of 2020.
+            The mobile app and its accompnaying admin portal will soon be used in clinical trials.
           </p>
         )}
         where="Created through Dartmouth's DALI lab."
@@ -42,11 +41,12 @@ export default () => {
         title="Magnuson Center Campus Ventures"
         text={(
           <p>Dartmouth&apos;s <a href="https://magnuson.dartmouth.edu/">Magnuson Center for Entrepreneurship</a>
-            &nbsp;hosts an in-person student-startup matching event every term, in which local startups are manually
-            matched with student volunteers after only a short conversation. In order to make this process
-            more intuitive and accessible, we created a platform on which startups can post position openings
-            and look for volunteers, while students can search for and apply to positions. A matching algorithm suggests
-            positions for students and qualified employees for startups.
+            &nbsp;hosts a student-startup matching event every term, in which local startups used to be manually
+            matched with student volunteers after only a short conversation. We created a &nbsp;
+            <a href="https://dartmouth-mccv.surge.sh/">platform</a>, now used by Magnuson,
+            to make this process more intuitive and accessible. Startups can post position openings
+            and look for volunteers, students can search for and apply to positions, and a matching algorithm
+            suggests positions for students and qualified employees for startups.
           </p>
         )}
         where="Final Project for CS52: Full-Stack Web Development"
