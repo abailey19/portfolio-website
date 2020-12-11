@@ -47,6 +47,8 @@ a {
 .header {
   padding-top: 2vh;
   padding-bottom: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
   text-align: center;
   border-top: solid grey 0.2px;
   border-bottom: solid grey 0.2px;
@@ -76,7 +78,7 @@ hr {
 
 @media only screen and (max-width: 640px) {
   h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   
   h2 {
