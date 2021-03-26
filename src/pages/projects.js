@@ -25,7 +25,8 @@ export default () => {
             PeerTECH connects adults with severe mental health conditions to trained peer supporters with lived experience of those conditions.
             It serves as a platform for users and their peer supporters to communicate,
             set goals and wellness plans, and access resources that assist in the recovery process.
-            The mobile app and its accompnaying admin portal will soon be used in clinical trials.
+            The mobile app is on the App Store and Google Play Store and is being used in clinical trials
+            with its accompnaying admin portal.
           </p>
         )}
         where="Created through Dartmouth's DALI lab."

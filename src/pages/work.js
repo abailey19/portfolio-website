@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import Layout from '../components/layout';
 import WorkExp from '../components/workexp';
@@ -23,6 +24,26 @@ export default () => {
               <li>Developing full-stack mobile and web apps for startups and researchers</li>
               <li>Using a range of tech stacks including React/React Native, Node/Express, MongoDB, and Firebase</li>
               <li>Working closely with designers and outside partners to ensure a high-quality user experience</li>
+            </ul>
+        )}
+        />
+        <div className="divider">
+          <hr />
+          <div className="circle" />
+          <hr />
+        </div>
+        <WorkExp
+          title="Software Engineer Intern"
+          employer="Cambly"
+          dates="January 2021 - March 2021"
+          description="Cambly is an English tutoring platform with web and mobile apps
+          where students can complete courses and chat with native English speakers.
+          My role there included:"
+          list={(
+            <ul>
+              <li>Developing a backend system for sending marketing campaigns to large groups of users, using AWS Lambda to integrate a third-party marketing platform with Cambly’s API and workers</li>
+              <li>Building frontend inboxes on the website and Android app for users to read marketing messages and receive realtime updates</li>
+              <li>Developing an interface for company administrators to apply purchases to large groups of users at a time</li>
             </ul>
         )}
         />
